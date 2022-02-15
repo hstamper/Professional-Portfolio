@@ -52,9 +52,9 @@ const swiper = new Swiper(".swiper", {
   readMoreBtn.addEventListener('click', () => {
     readMoreContent.classList.toggle('show-content');
     if(readMoreContent.classList.contains('show-content')){
-      readMoreBtn.textContent = "Show less";
+      readMoreBtn.textContent = "Show less/Resume Below";
     } else {
-      readMoreBtn.textContent = "Show more";
+      readMoreBtn.textContent = "Show more/Resume Below";
     }
   })
   
